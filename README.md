@@ -2,7 +2,7 @@
 
 `python3 main.py`
 
-Here is a tiny example how to model the social contain and plot the SIR.
+Here is a tiny example how to model the social contagion and plot the SIR.
 
 In `utils/Graph.py` file, you may customize to your own graph.
 
