@@ -3,6 +3,7 @@
 `python3 main.py`
 
 Here is a tiny example how to model the social contain and plot the SIR.
+
 In `utils/Graph.py` file, you may customize to your own graph.
 
 To simulate the SIR model on the graph performed the following actions:
@@ -24,8 +25,8 @@ To simulate the SIR model on the graph performed the following actions:
 
 ### Output
 
-It generates images of each step in `/images` directory.
-It merges the generated images to a single file as video `./movie.mp4` file. \*
+- It generates images of each step in `/images` directory.
+- It merges the generated images to a single file as video `./movie.mp4` file. \*
 
 ### Notes
 
@@ -35,11 +36,19 @@ In order to generate the movie you need to install `ffmpeg` on operating system 
 ubuntu:
 
 `sudo apt install ffmpeg`
+
 `ffmpeg -version` to verify installation
 
+<br/>
 macOS:
 
 `brew install ffmpeg`
 More details [here](https://formulae.brew.sh/formula/ffmpeg)
 
+<br/>
+Windows:
+
+`I don't know :)`
+
+<br/>
 Thanks :)
