@@ -8,6 +8,7 @@ from scipy.interpolate import make_interp_spline
 graph = nx.convert_node_labels_to_integers(graph)
 position = nx.kamada_kawai_layout(graph)
 
+# It is very recommended to change the property and analyze the result. 
 infection_rate = 0.2
 recovery_rate = 0.3
 initial_infected = 1
